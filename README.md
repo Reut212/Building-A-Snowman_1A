@@ -1,16 +1,16 @@
-<div dir="rtl" lang="he">
 
-# אנשי השלג
 
-כיתבו פונקציה המציירת איש-שלג!
-הגדרה מפורטת של הקלט והפלט נמצאת כאן:
+# Creating a snowman
+
+According to Systems Programming course - this is my first implementation for the first part of the assignment.
+Followed by the following instructions:
 https://codegolf.stackexchange.com/q/49671/12019
 
-כדי לראות איך הפונקציה אמורה לעבוד, ראו בקובץ
-[Demo.cpp](Demo.cpp)
-המצורף.
+* snowman.hpp -> function name.
+* Demo.cpp file -> A basic implementation - not a full implementation - only for compilation.
+* Test.cpp -> Implementation of 20 Tests.
 
-בשלב א עליכם לכתוב את הקבצים הדרושים כך שהפקודות הבאות יעבדו ללא שגיאות קימפול:
+I followed those commands for recieving a great feedback without any warnings.
 
 <div dir='ltr'>
 
@@ -18,28 +18,5 @@ https://codegolf.stackexchange.com/q/49671/12019
     ./demo
 	make test
     ./test
-
-</div>
-
-עליכם לכתוב את  הקבצים הבאים:
-
-* snowman.hpp - כותרת לפונקציה.
-* snowman.cpp - מימוש בסיסי של הפונקציה - לא חייב להיות מלא - צריך רק להתקמפל.
-* Test.cpp - בדיקות-יחידה בפורמט doctest. יש לכתוב בדיקות מפורטות ולהתייחס למקרי קצה.
-   * ניתן לראות דוגמה לבדיקות בקובץ TestExample.cpp, אבל יש לכתוב הרבה בדיקות נוספות.
-   * במטלות בקורס זה אנחנו כותבים את הבדיקות לפני המימוש, ולכן רוב הבדיקות ייכשלו וזה בסדר - המימוש המלא ייכתב בחלק ב של המטלה.
-
-מומלץ לוודא שהפקודה הבאה רצה ללא אזהרות (כדי להריץ יש להתקין את  clang-tidy):
-
-<div dir='ltr'>
-
-    make tidy
-
-</div>
-
-שימו לב:
-אין לשנות קבצים קיימים, אלא רק להוסיף קבצים חדשים.
-מערכת הבדיקה האוטומטית מעתיקה מחדש את כל הקבצים הקיימים על-גבי הפתרון שאתם מגישים,
-ולכן כל שינוי שתעשו בקבצים הקיימים יימחק.
 
 </div>
